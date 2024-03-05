@@ -42,13 +42,16 @@ textos = ["perro","gato","iguana","serpientes"]
         #    0      1        2          3
 # print(textos[2])
 
-#contando al cantidad de elementos de la lista
-cantidad = len(textos)
-print(cantidad) # la cantidad es 4
-#range(4) -> 0, 1 ,2 ,3
-for i in range(cantidad):
-    print(textos[i])
-#iteracion por indice en una lista
+# #contando al cantidad de elementos de la lista
+# cantidad = len(textos)
+# print(cantidad) # la cantidad es 4
+# #range(4) -> 0, 1 ,2 ,3
+# for i in range(cantidad):
+#     print(textos[i])
+# #iteracion por indice en una lista
 
 # for elemento in textos:
 #     print(elemento)
+
+frase = "hola mundo"
+print(frase[-1]) #esto imprime la ultima letra
