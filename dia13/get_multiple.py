@@ -1,5 +1,8 @@
+x =100
 def get_multiple(diccionario, *claves):
+    print(x)
     return {clave: diccionario[clave] for clave in claves}
+
 
 diccionario_prueba = {
     'manzana':'verde',
@@ -7,5 +10,5 @@ diccionario_prueba = {
     'frutilla':'roja'
     }
 
-resultado = get_multiple(diccionario_prueba, 'manzana')
+resultado = get_multiple(diccionario_prueba, 'manzana','platano')
 print(resultado)
