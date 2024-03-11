@@ -2,9 +2,9 @@
 numeros = [1,2,3,4,5,6,7]
 otro = [1,2,3,4]
 colores  = ['rojo', 'verde', 'morado', 'amarillo']
-print(zip(otro, colores))
-for elemnto in zip(otro, colores):
-    print(elemnto)
+# print(zip(otro, colores))
+# for elemnto in zip(otro, colores):
+#     print(elemnto)
 numeros.reverse()
 colores.reverse()
 
