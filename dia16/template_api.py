@@ -32,4 +32,6 @@ $body
 
 html = html_template.substitute(body = texto_img)
 
-print(html)
+archivo = open('index.html', 'w+') 
+archivo.write(html)
+archivo.close()
