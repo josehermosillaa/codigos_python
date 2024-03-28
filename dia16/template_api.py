@@ -49,6 +49,6 @@ html_template = Template('''<!doctype html>
 
 html = html_template.substitute(body = texto_img)
 
-archivo = open('index.html', 'w+') 
+archivo = open('index.html', 'w+', encoding='utf-8') 
 archivo.write(html)
 archivo.close()
